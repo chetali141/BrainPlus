@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.brain">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/i1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/i1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".result"></activity>
+        <activity android:name=".faq" />
+        <activity android:name=".india1" />
+        <activity android:name=".gk1" />
+        <activity android:name=".cricket1" />
+        <activity android:name=".bolly1" />
+        <activity android:name=".comp1" />
+        <activity android:name=".profile" />
+        <activity android:name=".quizmain" />
+        <activity android:name=".signup" />
+        <activity android:name=".login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
